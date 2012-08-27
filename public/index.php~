@@ -17,7 +17,7 @@ $search_term = (isset($_POST['search-term']))? $_POST['search-term'] : 'socialme
 </head>
 <body>
 <div id="frame">
-  <div class="title">Hi User</div>
+  <div class="title">Hi Sinead</div>
   <form action="/" method="post">
     Search for a term on twitter and see the results!<br><br>
     <input type="text" name="search-term" value="<?=$search_term?>">
